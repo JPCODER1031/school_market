@@ -1,0 +1,74 @@
+{
+  "name": "schoolmarket",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "ant-design-vue": "^1.7.8",
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.1",
+    "cookie-parser": "^1.4.6",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.15.6",
+    "formidable": "^2.0.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "jwchat": "^1.0.4",
+    "multer": "^1.4.4",
+    "mysql": "^2.18.1",
+    "node-rsa": "^1.1.1",
+    "path": "^0.12.7",
+    "socket.io": "^2.0.4",
+    "v-emoji-picker": "^2.3.3",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vue-socket.io": "^3.0.7",
+    "vuex": "^3.4.0",
+    "vuex-along": "^1.2.13"
+  },
+  "devDependencies": {
+    "@babel/helper-compilation-targets": "^7.16.7",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "postcss-pxtorem": "^6.0.0",
+    "prettier": "^2.2.1",
+    "sass-resources-loader": "^2.2.4",
+    "style-resources-loader": "^1.4.1",
+    "vue-cli-plugin-style-resources-loader": "~0.1.5",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "@vue/prettier"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
